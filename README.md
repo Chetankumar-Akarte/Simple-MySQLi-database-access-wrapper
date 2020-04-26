@@ -1,8 +1,11 @@
 # Simple-MySQLi-database-access-wrapper
 Connect and query a MySQL database using MySQLi
 In this document you can find proper usage of this library.
+
 By - Chetankumar Akarte
+
 for help email me - chetan.akarte@gmail.com
+
 get connect @ https://www.linkedin.com/in/chetanakarte
 
 ### About
@@ -19,8 +22,8 @@ This class library can read and parse a configuration file in the INI format and
 First you need to update config.ini with your database details and keep it in the same folder where your have db.php
 ```php
 localhost = localhost 	//MySQL Host 
-username = root			//MySQL User
-password = ''			//MySQL Password
+username = root		//MySQL User
+password = ''		//MySQL Password
 dbname = classic_news	//MySQL Database
 ```
 
