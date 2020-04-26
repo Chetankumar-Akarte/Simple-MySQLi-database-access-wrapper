@@ -4,9 +4,9 @@ In this document you can find proper usage of this library.
 
 By - Chetankumar Akarte
 
-for help email me - chetan.akarte@gmail.com
+For help email me - chetan.akarte@gmail.com
 
-get connect @ https://www.linkedin.com/in/chetanakarte
+Get connected @ https://www.linkedin.com/in/chetanakarte
 
 ### About
 This class is used to Connect and query a MySQL database using the MySQLi.extension.
