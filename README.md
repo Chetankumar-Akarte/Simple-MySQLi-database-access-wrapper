@@ -77,7 +77,8 @@ $get_cat = $DB->select($query);
 ### Fetch the last Insert Id from the database
 
 ```php
-$query = "INSERT INTO tbl_news (featured, news_title, news_cat, news_description, news_cover_img,published_on) VALUES('".trim($_POST['isFeatured'])."','".trim($_POST['txtTitle'])."','".$_cid."','".$strDummy."','".$file_name."', now())";
+$query = "INSERT INTO tbl_news (featured, news_title, news_cat, news_description, news_cover_img,published_on)
+VALUES('".trim($_POST['isFeatured'])."','".trim($_POST['txtTitle'])."','".$_cid."','".$strDummy."','".$file_name."', now())";
 	//echo $query;
 	$DB->query($query);
 	$_insetId=$DB->insert_id();
